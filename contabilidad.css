@@ -1,0 +1,139 @@
+body{
+background-color: green;
+}
+#cabecera{
+	background-color: green;
+	width: 1280px;
+	height: 200px;
+	float: left;
+	text-align: center;
+	font-size: 2.5em;
+	width: 80%;
+	margin-top: 40px;
+	margin-left: 200px;
+	color: black;
+}
+#uno{
+	background-color: #b8860b;
+	margin-bottom: 0px;
+	height: 1580px;
+	width: 320px;
+	float: left;
+	text-align: center;
+	color: white;
+}
+#uno ul li a{
+	color: white;
+	display: block;
+	padding: 25px;
+	text-decoration: none;
+}
+#uno ul li a:hover{
+	background-color: #42B881;
+}
+#menu{
+	background-color: #008080;
+	margin-bottom: 0px;
+	height: 80px;
+	width: 1460px;
+	font-size: 2em;
+	text-align: center;
+	float: left;
+}
+#menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul li{
+	display: inline-block;
+}
+#menu ul li a{
+	color: white;
+	display: block;
+	padding: 25px;
+	text-decoration: none;
+}
+#menu ul li a:hover{
+	background-color: #d2691e;
+}
+#tres{
+	background-color: purple;
+	margin-bottom: 0px;
+	height: 580px;
+	width: 1460px;
+	font-size: 1em;
+	float: left;
+	text-align: center;
+	color: white;
+}
+#tres p{
+	margin-right: 800px;
+	margin-top: 0px;
+    margin-left: 50px;
+    font-family: Helvetica;
+    font-size: 1.5em;
+    color: white;
+}
+#tres img{
+	margin-left: 650px;
+}
+#tres iframe{
+	margin-bottom: 4000px;
+}
+#cuatro{
+	background-color: #f08080;
+	margin-bottom: 0px;
+	height: 820px;
+	width: 1460px;
+	float: left;
+	text-align: center;
+}
+#cuatro p{
+	margin-right: 800px;
+	margin-top: 50px;
+    margin-left: 50px;
+    font-family: Helvetica;
+    font-size: 1.5em;
+    color: white;
+}
+#cuatro img{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 700px;
+ }
+ #cuatro iframe{
+ 	margin-left: 600px;
+ }
+ #cinco{
+ 	background-color: #87cefa;
+	margin-bottom: 0px;
+	height: 100px;
+	width: 1460px;
+	float: left;
+	text-align: center;
+}
+.zoom{
+	transition: width 2s, height 2s, transform 2s;
+	-moz-transition: width 2s, height 2s, -moz-transition 2s;
+	-webkit-transition: width 2s, height 2s, -webkit-transition 2s;
+	-o-transition: width 1s, height 1s, -o-transform 1s;
+}
+.zoom:hover{
+	transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+#D{
+	position: absolute; top: 110px;
+	position: absolute; bottom: 10px;
+	position: absolute; left: 30px;
+	position: absolute; right: 100px;
+}
+#S{
+	position: absolute; top: 130px;
+	position: absolute; bottom: 2120px;
+	position: absolute; left: 1590px;
+	position: absolute; right: 600px;
+}
